@@ -24,16 +24,16 @@ if __name__=="__main__":
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
     st.write("### I. Identification")
-    st.write(" PRODUCTEUR DU DÉCHET : DS SMITH ")
-    st.write("NUMÉRO DE BSD : BSD-20230808-7QQW18PM2 ")
-    st.write("Nature du déchet : Pâteux (mélange  d'encre, de colle et d'eau) ")
+    st.write(" PRODUCTEUR DU DÉCHET : ALOE ENVIRONNEMENT ")
+    st.write("NUMÉRO DE BSD : BSD-20230809-0GA5934RJ ")
+    st.write("Nature du déchet : Eaux souillées")
     
     st.write("  --------------------------------------------------------------------------------------------------------------------------------------------")
     
     st.write("### II. Description de l'anomalie")
-    st.write("Le déchet reçu, Pâteux (mélange  d'encre, de colle et d'eau), est  classé sous le code ONU 1263.  Il est par conséquent  soumis à l'ADR. Il doit donc être conditionné dans un emballage homologué, approprié et répondant aux instructions définies par l'ADR. Or 2 des GRV de pâteux reçus ont été découpés et fermés par un simple film. Il ne répondent plus à l'exigence d'étanchièté.  Un déversement a été constaté sur la plateau du camion.") 
-    st.write("Dans le cas où le découpage des GRV a été réalisé dans un but pratique, vous pouvez utiliser un entonnoir." )
-    st.write("Leur éxpédition vers le centre de traitement nécessite leur recondtionnement dont le coût sera défini par le service commercial." )  
+    st.write("Le déchet reçu n'est pas de l'eau souillée mais ce sont des petits échantillons d'huiles conditionnés en fûts.") 
+    st.write("La dénomination du déchet doit être requalifiée en échantillons d'huile hydraulique usagée avec édition d'un noveau BSD." )
+    st.write("Le déchet est mis dans la zone des non-conformités en attendant la validation du client." )  
 
     st.write("  --------------------------------------------------------------------------------------------------------------------------------------------")
    
@@ -53,7 +53,7 @@ if __name__=="__main__":
     #st.image(img3, width=250)
     
     st.write("### III. Vidéo")
-    video_file = open('ECHANT_HUILE_ALOE_ENV.mp4', 'rb')
+    video_file = open('echant-huile-aloe-env.mp4', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_file)
