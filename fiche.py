@@ -26,7 +26,8 @@ if __name__=="__main__":
     st.write("### I. Identification")
     st.write(" PRODUCTEUR DU DÉCHET : ALOE ENVIRONNEMENT ")
     st.write("NUMÉRO DE BSD : BSD-20230809-0GA5934RJ ")
-    st.write("Nature du déchet : Eaux souillées")
+    st.write("Nature annoncée du déchet : Eaux souillées")
+    st.write("Date de réception : 10/08/2023")
     
     st.write("  --------------------------------------------------------------------------------------------------------------------------------------------")
     
