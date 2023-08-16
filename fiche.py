@@ -32,7 +32,7 @@ if __name__=="__main__":
     
     st.write("### II. Description de l'anomalie")
     st.write("Le déchet reçu n'est pas de l'eau souillée mais ce sont des petits échantillons d'huiles conditionnés en fûts.") 
-    st.write("La dénomination du déchet doit être requalifiée en échantillons d'huile hydraulique usagée avec édition d'un nouveau BSD." )
+    st.write("La dénomination du déchet doit être requalifiée en échantillons d'huiles hydrauliques usagées avec édition d'un nouveau BSD." )
     st.write("Le déchet est mis dans la zone des non-conformités en attendant la validation par client." )  
 
     st.write("  --------------------------------------------------------------------------------------------------------------------------------------------")
