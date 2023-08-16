@@ -53,7 +53,7 @@ if __name__=="__main__":
     #st.image(img3, width=250)
     
     st.write("### III. Vidéo")
-    video_file = open('grv-ds-smith.mp4', 'rb')
+    video_file = open('ECHANT_HUILE_ALOE_ENV.mp4', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_file)
